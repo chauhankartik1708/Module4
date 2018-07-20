@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ar"
+                android:layout_width="360dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="120dp"
+                android:src="@drawable/ar"/>
+
+            <ImageButton
+                android:id="@+id/icg"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="360dp"
+                android:layout_height="120dp"
+                android:src="@drawable/icg"/>
+
+            <ImageButton
+                android:id="@+id/sff"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="360dp"
+                android:layout_height="120dp"
+                android:src="@drawable/sff"/>
+
+            <ImageButton
+                android:id="@+id/ndrf"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="360dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ndrf"/>
+
+            <ImageButton
+                android:id="@+id/bsf"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="360dp"
+                android:layout_height="120dp"
+                android:src="@drawable/bsf"/>
+
+            <ImageButton
+                android:id="@+id/rpf"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="360dp"
+                android:layout_height="120dp"
+                android:src="@drawable/rpf"/>
+
+            <ImageButton
+                android:id="@+id/spg"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="360dp"
+                android:layout_height="120dp"
+                android:src="@drawable/spg"/>
+
+            <ImageButton
+                android:id="@+id/nsg"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="360dp"
+                android:layout_height="120dp"
+                android:src="@drawable/nsg"/>
+
+            <ImageButton
+                android:id="@+id/cisf"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="360dp"
+                android:layout_height="120dp"
+                android:src="@drawable/cisf"/>
+
+            <ImageButton
+                android:id="@+id/ssb"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="360dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ssb"/>
+
+            <ImageButton
+                android:id="@+id/itbp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="360dp"
+                android:layout_height="120dp"
+                android:src="@drawable/itbp"/>
+
+            <ImageButton
+                android:id="@+id/crsf"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_width="360dp"
+                android:layout_height="120dp"
+                android:src="@drawable/crsf"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
