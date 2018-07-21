@@ -1,13 +1,15 @@
-package com.dzone.module4;
+package com.dzone.module4.NSG;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class NsgRegDepActivity extends AppCompatActivity {
+import com.dzone.module4.R;
+
+public class NsgSelActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nsg_reg_dep);
+        setContentView(R.layout.activity_nsg_sel);
     }
 }

@@ -1,7 +1,9 @@
-package com.dzone.module4;
+package com.dzone.module4.NSG;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.dzone.module4.R;
 
 public class NsgMissionActivity extends AppCompatActivity {
 

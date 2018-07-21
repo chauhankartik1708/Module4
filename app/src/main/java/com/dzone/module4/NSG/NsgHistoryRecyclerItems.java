@@ -1,4 +1,4 @@
-package com.dzone.module4;
+package com.dzone.module4.NSG;
 
 public class NsgHistoryRecyclerItems {
     String date;

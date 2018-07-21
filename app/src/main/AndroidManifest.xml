@@ -17,21 +17,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NsgActivity"
+            android:name=".NSG.NsgActivity"
             android:label="National Security Guard" />
         <activity
-            android:name=".NsgHistoryActivity"
+            android:name=".NSG.NsgHistoryActivity"
             android:label="History" />
         <activity
-            android:name=".NsgMissionActivity"
+            android:name=".NSG.NsgMissionActivity"
             android:label="Mission" />
         <activity
-            android:name=".NsgSelActivity"
+            android:name=".NSG.NsgSelActivity"
             android:label="Selection and Training" />
-        <activity
-            android:name=".NsgRegDepActivity"
-            android:label="Regional Deployment" />
-        <activity android:name=".NsgRankActivity"></activity>
+        <activity android:name=".NSG.NsgRankActivity"></activity>
     </application>
 
 </manifest>

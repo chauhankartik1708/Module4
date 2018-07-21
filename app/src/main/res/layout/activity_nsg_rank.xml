@@ -5,7 +5,7 @@
     android:id="@+id/nsg_rank_activity"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".NsgRankActivity">
+    tools:context=".NSG.NsgRankActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

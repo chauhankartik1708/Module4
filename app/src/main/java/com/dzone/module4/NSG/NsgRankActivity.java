@@ -1,9 +1,11 @@
-package com.dzone.module4;
+package com.dzone.module4.NSG;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+
+import com.dzone.module4.R;
 
 import java.util.ArrayList;
 import java.util.List;

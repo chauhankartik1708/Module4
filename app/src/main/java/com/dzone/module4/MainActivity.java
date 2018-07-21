@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.dzone.module4.NSG.NsgActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     ImageButton ar,bsf,cisf,crsf,icg,itbp,ndrf,nsg,rpf,sff,spg,ssb;
