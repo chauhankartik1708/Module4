@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.dzone.module4.BSF.BSFactivity;
 import com.dzone.module4.NSG.NsgActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -46,6 +47,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+            }
+        });
+
+        bsf = (ImageButton)findViewById(R.id.bsf);
+        bsf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, BSFactivity.class));
             }
         });
 

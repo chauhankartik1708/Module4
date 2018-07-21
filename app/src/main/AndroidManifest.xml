@@ -37,6 +37,10 @@
         <activity
             android:name=".BSF.BSFranksActivity"
             android:label="@string/title_activity_bsfranks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BSF.BSFmartyrsActivity"
+            android:label="@string/title_activity_bsfmartyrs"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

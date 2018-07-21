@@ -52,11 +52,11 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:id="@+id/bsf_sel"
+                android:id="@+id/bsf_martyrs"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:background="#2196F3"
-                android:text="Selection and training"
+                android:text="Martyrs"
                 android:textColor="#FFFFFF" />
 
         </LinearLayout>
