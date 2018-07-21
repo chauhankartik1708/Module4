@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".BSF.BSFactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="131dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/bsf_logo" />
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bsf_history"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="10dp"
+                android:background="#FF9800"
+                android:text="History"
+                android:textColor="#FFFFFF" />
+            <Button
+                android:id="@+id/bsf_ranks"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="#f44336"
+                android:text="Ranks"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bsf_sel"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:background="#2196F3"
+                android:text="Selection and training"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

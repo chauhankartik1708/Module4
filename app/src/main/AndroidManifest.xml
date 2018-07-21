@@ -28,7 +28,16 @@
         <activity
             android:name=".NSG.NsgSelActivity"
             android:label="Selection and Training" />
-        <activity android:name=".NSG.NsgRankActivity"></activity>
+        <activity android:name=".NSG.NsgRankActivity" />
+        <activity android:name=".BSF.BSFactivity" />
+        <activity
+            android:name=".BSF.BSFmissionActivity"
+            android:label="@string/title_activity_bsfmission"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BSF.BSFranksActivity"
+            android:label="@string/title_activity_bsfranks"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

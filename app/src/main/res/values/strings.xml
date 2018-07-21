@@ -11,4 +11,23 @@
     \n\nHyderabad will also serve as a regional center in the future. With the ministry of home affairs (MHA) giving its nod and sanctioning Rs 533.68 crore a few months ago, the National Security Guard (NSG) officials are gearing up to set up the Southern Regional Center (SRC) at Ibrahimpatnam, Hyderabad for training commandos. With the state government also handing over 600 acres at Ibrahimpatnam, the SRC is likely to be ready by next year. Tender notices have already been issued for civil works, which would be overseen by the Central Public Works Department. With this, Hyderabad would have an NSG hub at Trimulgherry as well as the SRC for training "Black Cats". As of now, nearly 300 commandos, ready for anti-terror operations round-the-clock, are stationed at the NSG hub at Trimulgherry. Similar hubs are in place in Mumbai, Chennai and Kolkata. The proposal to set up a state-of-the-art NSG training centre at Ibrahimpatnam on the lines of NSG Manesar training centre has been pending for over three years.
         \n\nBut the MHA officials, in their annual report released recently, announced the release of funds for developing infrastructure. "Post the 26/11 Mumbai terror strike, four regional hubs of NSG were operationalised in Mumbai, Hyderabad, Chennai and Kolkata to reduce reaction time. A regional centre at Hyderabad is also being raised, for which 600 acres of land has been acquired. MHA has conveyed sanction of Rs 533.68 crore towards the construction of this Southern Regional Centre, NSG at Ibrahimpatnam," the MHA report said. With this, the state would have two trained anti-terror striking forces. Besides the NSG, the Andhra Pradesh police's OCTOPUS, which also has a training facility at Ibrahimpatnam, has a strength of over 250 personnel. NSG and OCTOPUS personnel, who undergo a gruelling training, including handling sophisticated weapons, commandos are sent back to their parent department once they attain the age of 35, ensuring that the force remains young and fighting fit.
     </string>
+    <string name="title_activity_bsfmission">Border Security Force</string>
+    <string name="large_text">
+        Till 1965 India’s borders with Pakistan were manned by the
+        State Armed Police Battalion. Pakistan attacked Sardar Post,
+        Chhar Bet and Beria Bet on 9 April, 1965 in Kutch. This exposed
+        the inadequacy of the State Armed Police to cope with armed
+        aggression due to which the Government of India felt the
+        need for a specialized centrally controlled Border Security
+        Force, which would be armed and trained to man the International
+        Border with Pakistan. As a result of the recommendations of the
+        Committee of Secretaries, the Border Security Force came into
+        existence on 01 Dec 1965, and Shri K F Rustamji was the first
+        chief and founding father. Shri K K Sharma, IPS is current Director
+        General of the BSF.\n\n\n
+
+        The BSF, in its 53rd years of existence, has emerged as an elite force of the country having excelled with distinction in the 1971 war with Pakistan. Its ethos is “Any task, any time, any where” and the BSF has given blood and sweat to execute its motto “Jeevan Paryant Kartavya”.
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bsfranks">BSFranksActivity</string>
 </resources>
