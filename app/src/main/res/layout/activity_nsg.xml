@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".NsgActivity">
+
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:src="@drawable/nsg_logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="140dp"
+        android:layout_height="140dp" />
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/nsg_mission"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:text="Mission"
+            android:background="#4CAF50"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/nsg_history"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="10dp"
+            android:background="#FF9800"
+            android:text="History"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp">
+
+        <Button
+            android:id="@+id/nsg_reg_dep"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_vertical"
+            android:background="#009688"
+            android:text="Regional     Deployment"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/nsg_ranks"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="#f44336"
+            android:text="Ranks"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/nsg_sel"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="#2196F3"
+            android:text="Selection and training"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</LinearLayout>

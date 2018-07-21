@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,15 +15,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Intent in = new Intent(MainActivity.this,CategoryActivity.class);
-        final Bundle b = new Bundle();
         nsg = (ImageButton)findViewById(R.id.nsg);
         nsg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                b.putString("page","nsg");
-                in.putExtras(b);
-                startActivity(in);
+                startActivity(new Intent(MainActivity.this,NsgActivity.class));
             }
         });
 
@@ -32,9 +27,7 @@ public class MainActivity extends AppCompatActivity {
         spg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                b.putString("page","spg");
-                in.putExtras(b);
-                startActivity(in);
+
             }
         });
 
@@ -42,9 +35,7 @@ public class MainActivity extends AppCompatActivity {
         rpf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                b.putString("page","rpf");
-                in.putExtras(b);
-                startActivity(in);
+
             }
         });
 
@@ -52,9 +43,7 @@ public class MainActivity extends AppCompatActivity {
         ndrf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                b.putString("page","ndrf");
-                in.putExtras(b);
-                startActivity(in);
+
             }
         });
 

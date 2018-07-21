@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CategoryActivity"></activity>
+        <activity
+            android:name=".NsgActivity"
+            android:label="National Security Guard" />
+        <activity android:name=".NsgHistoryActivity"
+            android:label="History"/>
+        <activity android:name=".NsgMissionActivity"
+            android:label="Mission"/>
     </application>
 
 </manifest>
