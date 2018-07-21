@@ -1,6 +1,6 @@
 package com.dzone.module4.NSG;
 
-public class NsgHistoryRecyclerItems {
+public class NsgOperationRecyclerItems {
     String date;
     String desc;
 
@@ -20,7 +20,7 @@ public class NsgHistoryRecyclerItems {
         this.desc = desc;
     }
 
-    public NsgHistoryRecyclerItems(String date, String desc) {
+    public NsgOperationRecyclerItems(String date, String desc) {
         this.date = date;
         this.desc = desc;
     }

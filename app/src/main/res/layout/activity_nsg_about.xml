@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".NSG.NsgHistoryActivity">
+    tools:context=".NSG.NsgAboutActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
@@ -22,6 +22,7 @@
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:toolbarId="@+id/toolbar">
+
             <ImageView
                 android:id="@+id/image_id"
                 android:layout_width="match_parent"
@@ -41,6 +42,6 @@
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_nsg_mission" />
+    <include layout="@layout/content_nsg_about" />
 
 </android.support.design.widget.CoordinatorLayout>

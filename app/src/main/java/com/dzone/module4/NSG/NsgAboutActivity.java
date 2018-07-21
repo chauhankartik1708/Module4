@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import com.dzone.module4.R;
 
-public class NsgMissionActivity extends AppCompatActivity {
+public class NsgAboutActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nsg_mission);
+        setContentView(R.layout.activity_nsg_about);
     }
 }

@@ -20,15 +20,14 @@
             android:name=".NSG.NsgActivity"
             android:label="National Security Guard" />
         <activity
+            android:name=".NSG.NsgOperationActivity"
+            android:label="Operations" />
+        <activity
             android:name=".NSG.NsgHistoryActivity"
             android:label="History" />
         <activity
-            android:name=".NSG.NsgMissionActivity"
-            android:label="Mission" />
-        <activity
-            android:name=".NSG.NsgSelActivity"
-            android:label="Selection and Training" />
-        <activity android:name=".NSG.NsgRankActivity" />
+            android:name=".NSG.NsgRankActivity"
+            android:label="Rank Structure and Designation" />
         <activity android:name=".BSF.BSFactivity" />
         <activity
             android:name=".BSF.BSFmissionActivity"
@@ -41,7 +40,11 @@
         <activity
             android:name=".BSF.BSFmartyrsActivity"
             android:label="@string/title_activity_bsfmartyrs"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".NSG.NsgMartyrActivity" />
+        <activity android:name=".NSG.NsgAboutActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="About"/>
     </application>
 
 </manifest>

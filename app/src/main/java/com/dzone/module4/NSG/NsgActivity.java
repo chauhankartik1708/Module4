@@ -9,7 +9,7 @@ import android.widget.Button;
 import com.dzone.module4.R;
 
 public class NsgActivity extends AppCompatActivity {
-    Button hist,mission,ranks,sel;
+    Button hist,martyrs,ranks,about,op;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,11 +24,19 @@ public class NsgActivity extends AppCompatActivity {
             }
         });
 
-        mission = (Button)findViewById(R.id.nsg_mission);
-        mission.setOnClickListener(new View.OnClickListener() {
+        martyrs = (Button)findViewById(R.id.nsg_martyrs);
+        martyrs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(NsgActivity.this,NsgMissionActivity.class));
+                startActivity(new Intent(NsgActivity.this,NsgMartyrActivity.class));
+            }
+        });
+
+        about = (Button)findViewById(R.id.nsg_about);
+        about.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(NsgActivity.this,NsgAboutActivity.class));
             }
         });
 
@@ -40,11 +48,11 @@ public class NsgActivity extends AppCompatActivity {
             }
         });
 
-        sel = (Button)findViewById(R.id.nsg_sel);
-        sel.setOnClickListener(new View.OnClickListener() {
+        op = (Button)findViewById(R.id.nsg_operations);
+        op.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(NsgActivity.this,NsgSelActivity.class));
+                startActivity(new Intent(NsgActivity.this,NsgOperationActivity.class));
             }
         });
 
