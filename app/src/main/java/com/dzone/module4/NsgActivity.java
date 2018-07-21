@@ -7,8 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class NsgActivity extends AppCompatActivity {
-    Button hist;
-    Button mission;
+    Button hist,mission,ranks,reg_dep,sel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +27,30 @@ public class NsgActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(NsgActivity.this,NsgMissionActivity.class));
+            }
+        });
+
+        ranks = (Button)findViewById(R.id.nsg_ranks);
+        ranks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(NsgActivity.this,NsgRankActivity.class));
+            }
+        });
+
+        sel = (Button)findViewById(R.id.nsg_sel);
+        sel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(NsgActivity.this,NsgSelActivity.class));
+            }
+        });
+
+        reg_dep = (Button)findViewById(R.id.nsg_reg_dep);
+        reg_dep.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(NsgActivity.this,NsgRegDepActivity.class));
             }
         });
     }
