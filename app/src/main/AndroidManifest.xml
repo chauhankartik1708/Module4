@@ -96,11 +96,6 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".RPF.RpfRankActivity"
             android:label="Rank Structure"/>
-        <activity android:name=".NSG.NsgMartyrActivity" />
-        <activity
-            android:name=".NSG.NsgAboutActivity"
-            android:label="About"
-            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
