@@ -1,4 +1,4 @@
-package com.dzone.module4.NSG;
+package com.dzone.module4.RPF;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -8,16 +8,17 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.dzone.module4.NDRF.NdrfRankAdapter;
+import com.dzone.module4.NDRF.NdrfRankRecyclerItems;
 import com.dzone.module4.R;
 
 import java.util.List;
 
-public class NsgRankAdapter extends RecyclerView.Adapter<NsgRankAdapter.ViewHolder>{
-
-    private List<NsgRankRecyclerItems> listItems;
+public class RpfRankAdapter extends RecyclerView.Adapter<RpfRankAdapter.ViewHolder>{
+    private List<RpfRankRecyclerItems> listItems;
     private Context mContext;
 
-    public NsgRankAdapter(List<NsgRankRecyclerItems> listItems, Context mContext) {
+    public RpfRankAdapter(List<RpfRankRecyclerItems> listItems, Context mContext) {
         this.listItems = listItems;
         this.mContext = mContext;
     }
@@ -31,7 +32,7 @@ public class NsgRankAdapter extends RecyclerView.Adapter<NsgRankAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        final NsgRankRecyclerItems item = listItems.get(position);
+        final RpfRankRecyclerItems item = listItems.get(position);
         holder.rank.setText(item.getRank());
     }
 

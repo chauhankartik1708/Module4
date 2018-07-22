@@ -1,8 +1,8 @@
 package com.dzone.module4.NSG;
 
 public class NsgMartyrRecyclerItems {
-    int img;
-    String name;
+    private int img;
+    private String name;
 
     public NsgMartyrRecyclerItems(int img, String name) {
         this.img = img;

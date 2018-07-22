@@ -1,4 +1,4 @@
-package com.dzone.module4.NSG;
+package com.dzone.module4.SPG;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -12,12 +12,12 @@ import com.dzone.module4.R;
 
 import java.util.List;
 
-public class NsgRankAdapter extends RecyclerView.Adapter<NsgRankAdapter.ViewHolder>{
+public class SpgOrganAdapter extends RecyclerView.Adapter<SpgOrganAdapter.ViewHolder>{
 
-    private List<NsgRankRecyclerItems> listItems;
+    private List<SpgOrganRecyclerItems> listItems;
     private Context mContext;
 
-    public NsgRankAdapter(List<NsgRankRecyclerItems> listItems, Context mContext) {
+    public SpgOrganAdapter(List<SpgOrganRecyclerItems> listItems, Context mContext) {
         this.listItems = listItems;
         this.mContext = mContext;
     }
@@ -25,14 +25,15 @@ public class NsgRankAdapter extends RecyclerView.Adapter<NsgRankAdapter.ViewHold
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.rank_list,parent,false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.nsg_hist_list,parent,false);
         return new ViewHolder(v);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        final NsgRankRecyclerItems item = listItems.get(position);
-        holder.rank.setText(item.getRank());
+        final SpgOrganRecyclerItems item = listItems.get(position);
+        holder.title.setText(item.getTitle());
+        holder.desc.setText(item.getDesc());
     }
 
     @Override
@@ -41,11 +42,13 @@ public class NsgRankAdapter extends RecyclerView.Adapter<NsgRankAdapter.ViewHold
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
-        public TextView rank;
+        public TextView title;
+        public TextView desc;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            rank = itemView.findViewById(R.id.nsg_rank_rank);
+            title = itemView.findViewById(R.id.nsg_hist_date);
+            desc = itemView.findViewById(R.id.nsg_hist_desc);
         }
     }
 }

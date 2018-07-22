@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".NSG.NsgHistoryActivity">
+    tools:context=".RPF.RpfHistoryActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
@@ -26,7 +26,7 @@
                 android:id="@+id/image_id"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/nsg_jawans"
+                android:background="@drawable/rpf_jawans"
                 android:fitsSystemWindows="true"
                 android:scaleType="centerCrop"
                 app:layout_collapseMode="parallax" />
@@ -41,6 +41,6 @@
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_nsg_history" />
+    <include layout="@layout/content_rpf_history" />
 
 </android.support.design.widget.CoordinatorLayout>

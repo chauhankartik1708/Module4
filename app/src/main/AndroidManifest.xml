@@ -24,11 +24,13 @@
             android:label="Operations" />
         <activity
             android:name=".NSG.NsgHistoryActivity"
-            android:label="History" />
+            android:label="History"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".NSG.NsgRankActivity"
             android:label="Rank Structure and Designation" />
-        <activity android:name=".BSF.BSFactivity" />
+        <activity android:name=".BSF.BSFactivity"
+            android:label="Border Security Force"/>
         <activity
             android:name=".BSF.BSFmissionActivity"
             android:label="@string/title_activity_bsfmission"
@@ -41,10 +43,61 @@
             android:name=".BSF.BSFmartyrsActivity"
             android:label="@string/title_activity_bsfmartyrs"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".NSG.NsgMartyrActivity" />
-        <activity android:name=".NSG.NsgAboutActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label="About"/>
+        <activity
+            android:name=".NSG.NsgMartyrActivity"
+            android:label="Martyrs" />
+        <activity
+            android:name=".NSG.NsgAboutActivity"
+            android:label="About"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RPF.RpfActivity"
+            android:label="Railway Police Force" />
+        <activity
+            android:name=".NDRF.NdrfActivity"
+            android:label="National Disaster Rescue Force" />
+        <activity
+            android:name=".SPG.SpgActivity"
+            android:label="Special Protection Group" />
+        <activity
+            android:name=".SPG.SpgAboutActivity"
+            android:label="About"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NDRF.NdrfAboutActivity"
+            android:label="About"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RPF.RpfAboutActivity"
+            android:label="About"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RPF.RpfHistoryActivity"
+            android:label="History"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SPG.SpgHistoryActivity"
+            android:label="History"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NDRF.NdrfHistoryActivity"
+            android:label="History"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NDRF.NdrfRankActivity"
+            android:label="Rank Structure" />
+        <activity
+            android:name=".NDRF.NdrfDisResActivity"
+            android:label="Disaster Response" />
+        <activity
+            android:name=".SPG.SpgOrganActivity"
+            android:label="Organisation" />
+        <activity
+            android:name=".SPG.SpgMissionActivity"
+            android:label="Mission"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RPF.RpfRankActivity"
+            android:label="Rank Structure"/>
     </application>
 
 </manifest>

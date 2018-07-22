@@ -7,7 +7,10 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import com.dzone.module4.BSF.BSFactivity;
+import com.dzone.module4.NDRF.NdrfActivity;
 import com.dzone.module4.NSG.NsgActivity;
+import com.dzone.module4.RPF.RpfActivity;
+import com.dzone.module4.SPG.SpgActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         spg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                startActivity(new Intent(MainActivity.this,SpgActivity.class));
             }
         });
 
@@ -38,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         rpf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                startActivity(new Intent(MainActivity.this,RpfActivity.class));
             }
         });
 
@@ -46,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         ndrf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                startActivity(new Intent(MainActivity.this,NdrfActivity.class));
             }
         });
 

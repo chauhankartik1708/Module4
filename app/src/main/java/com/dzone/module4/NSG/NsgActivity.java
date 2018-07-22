@@ -1,6 +1,7 @@
 package com.dzone.module4.NSG;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -28,7 +29,9 @@ public class NsgActivity extends AppCompatActivity {
         martyrs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(NsgActivity.this,NsgMartyrActivity.class));
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse("https://www.nsg.gov.in/our-martyrs/veer-gatha"));
+                startActivity(i);
             }
         });
 

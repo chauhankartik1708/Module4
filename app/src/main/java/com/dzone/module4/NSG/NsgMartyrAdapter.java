@@ -26,7 +26,7 @@ public class NsgMartyrAdapter extends RecyclerView.Adapter<NsgMartyrAdapter.View
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.nsg_rank_list,parent,false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.nsg_martyr_list,parent,false);
         return new ViewHolder(v);
     }
 

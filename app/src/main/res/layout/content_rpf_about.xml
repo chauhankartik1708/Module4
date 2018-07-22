@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".NSG.NsgAboutActivity"
-    tools:showIn="@layout/activity_nsg_about">
+    tools:context=".RPF.RpfAboutActivity"
+    tools:showIn="@layout/activity_rpf_about">
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
@@ -48,7 +48,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:textColor="#000000"
-                    android:text="Motto :\n"/>
+                    android:text="Motto :"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -90,7 +90,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:textColor="#000000"
-                    android:text="Website :"/>
+                    android:text="Zones :"/>
 
             </LinearLayout>
 
@@ -104,25 +104,25 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="NSG"/>
+                    android:text="RPF"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="1984"/>
+                    android:text="27 July, 1984"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Omnipresent Omnipotent\nSecurity"/>
+                    android:text="Service and Loyalty"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="7,350 Active Personnel"/>
+                    android:text="1,75,000 Active Personnel"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -140,21 +140,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Sudeep Lakhtakia\nDirector General of NSG"/>
+                    android:text="Dharmendra Kumar\nIPS, Director General, RPF"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Rajnath Singh\nMinistry of Home Affairs"/>
+                    android:text="Rajnath Singh\nUnion Home Minister"/>
 
                 <TextView
-                    android:id="@+id/nsg_web_link"
+                    android:id="@+id/ndrg_web_link"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:autoLink="web"
-                    android:text="www.nsg.gov.in"/>
+                    android:text="10"/>
 
             </LinearLayout>
 

@@ -1,4 +1,4 @@
-package com.dzone.module4.NSG;
+package com.dzone.module4.NDRF;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -12,26 +12,26 @@ import com.dzone.module4.R;
 
 import java.util.List;
 
-public class NsgRankAdapter extends RecyclerView.Adapter<NsgRankAdapter.ViewHolder>{
+public class NdrfDisResAdapter extends RecyclerView.Adapter<NdrfDisResAdapter.ViewHolder>{
 
-    private List<NsgRankRecyclerItems> listItems;
+    private List<NdrfDisResRecyclerItems> listItems;
     private Context mContext;
 
-    public NsgRankAdapter(List<NsgRankRecyclerItems> listItems, Context mContext) {
+    public NdrfDisResAdapter(List<NdrfDisResRecyclerItems> listItems, Context mContext) {
         this.listItems = listItems;
         this.mContext = mContext;
     }
 
     @NonNull
     @Override
-    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public NdrfDisResAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.rank_list,parent,false);
         return new ViewHolder(v);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        final NsgRankRecyclerItems item = listItems.get(position);
+    public void onBindViewHolder(@NonNull NdrfDisResAdapter.ViewHolder holder, int position) {
+        final NdrfDisResRecyclerItems item = listItems.get(position);
         holder.rank.setText(item.getRank());
     }
 
