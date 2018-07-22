@@ -24,13 +24,11 @@
             android:label="Operations" />
         <activity
             android:name=".NSG.NsgHistoryActivity"
-            android:label="History"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="History" />
         <activity
             android:name=".NSG.NsgRankActivity"
             android:label="Rank Structure and Designation" />
-        <activity android:name=".BSF.BSFactivity"
-            android:label="Border Security Force"/>
+        <activity android:name=".BSF.BSFactivity" />
         <activity
             android:name=".BSF.BSFmissionActivity"
             android:label="@string/title_activity_bsfmission"
@@ -98,6 +96,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".RPF.RpfRankActivity"
             android:label="Rank Structure"/>
+        <activity android:name=".NSG.NsgMartyrActivity" />
+        <activity
+            android:name=".NSG.NsgAboutActivity"
+            android:label="About"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
