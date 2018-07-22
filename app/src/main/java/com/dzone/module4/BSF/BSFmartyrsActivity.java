@@ -1,6 +1,9 @@
 package com.dzone.module4.BSF;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -49,9 +52,22 @@ public class BSFmartyrsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String value = spinner.getSelectedItem().toString();
-                Uri uri = Uri.parse("http://bsf.nic.in/doc/martyrs/" +value +".pdf"); // missing 'http://' will cause crashed
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(intent);
+
+                ConnectivityManager connectivityManager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
+                if(connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
+                        connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED) {
+                    //we are connected to a network
+
+                    Uri uri = Uri.parse("http://bsf.nic.in/doc/martyrs/" +value +".pdf"); // missing 'http://' will cause crashed
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                }
+                else
+//                    Toast.makeText(BSFactivity.this,"Check your internet connection !",Toast.LENGTH_SHORT).show();
+                    Snackbar.make(view, "You're not connected to internet. Check your internet connection !", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+
+
             }
         });
 
