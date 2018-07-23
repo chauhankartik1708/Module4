@@ -56,6 +56,15 @@
 \n\nThere are detailed operational procedures in place specifying everything like the number of men accompanying him in the car, at the dias, etc. They also keep a strict check on who meets PM and who is allowed to meet. The SPG also answers the PM’s phone calls and ask the PM to decide whether to meet the person or not.
 \n\nThe SPG protects the PM by forming multiple security rings around him. The members of the innermost ring have the sole mission of getting the PM to safety in case of an attack. The SPG Counter Assault Team usually form the second level. They are tasked with providing covering firepower to allow enough time for PM to get to safety.
 \n\nBesides the main assault team that you see here, they may also be supported by a third cordon which include NSG, IAF and local forces for perimeter and aerospace safety.\n\n</string>
+
+    <string name="itbp_histroy">Indo-Tibetan Border Police was raised on October 24, 1962 for reorganizing the frontier intelligence and security set up along the Indo-Tibetan border. Only four Battalions were sanctioned to begin with. ITBP was initially raised under the CRPF Act. However, in 1992, parliament enacted the ITBPF Act and the rules there under were framed in 1994.\n
+
+With additional tasks entrusted to ITBP from time to time on border guarding, counter insurgency and internal security roles, the number of ITBP Battalions increased gradually and ITBP presently has 56 service Battalions, 4 Specialist Battalions, 17 Training Centres and 07 logistics establishments with a total strength of approx. 90,000 personnel.\n
+
+In the year 2004, in pursuance of GoM recommendations on “One Border One Force”, the entire stretch of India-China Border comprising 3488 Kms was assigned to the ITBP for Border Guarding duty and, accordingly, ITBP, replaced Assam Rifles in Sikkim and Arunachal Pradesh in 2004.\n
+
+The motto of the Force is “Shaurya-Dridhata-Karma Nishtha” (Valour – Determination – Devotion to Duty). All ranks of ITBP are dedicated to guard the borders with valour, determination and devotion to duty. The Force has earned number of decorations like Padmashree-7, Kirti Chakra-2 Shaurya Chakra-6, Sena Medal-1, President’s Police Medal for Gallantry-19, Police Medal for Gallantry -91, Parakram Padak-79, President’s Police and Fire Service Medals for Gallantry-2, Prime Minister’s Life Saving Medal-86, Jeewan Raksha Padak -06, Sarvottam Jeewan Raksha Padak – 02, Uttam Jeewan Raksha Padak – 13, Tenzing Norgay Adventure Award -12 etc. for its numerous achievements in the past.</string>
     <string name="title_activity_bsfabout">Border Security Force</string>
     <string name="title_activity_itbpabout">Indo-Tibetan Border Police</string>
+    <string name="title_activity_itbphistory">Indo-Tibetan Border Police</string>
 </resources>
