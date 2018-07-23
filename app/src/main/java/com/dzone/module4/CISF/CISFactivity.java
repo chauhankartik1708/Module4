@@ -45,7 +45,7 @@ public class CISFactivity extends AppCompatActivity {
                           connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED) {
                       //we are connected to a network
 
-                      Uri uri = Uri.parse("www.cisf.gov.in/wp-content/uploads/2015/06/list_of_MARTYS.pdf"); // missing 'http://' will cause crashed
+                      Uri uri = Uri.parse("https://www.cisf.gov.in/wp-content/uploads/2015/06/list_of_MARTYS.pdf"); // missing 'http://' will cause crashed
                       Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                       startActivity(intent);
                   }
