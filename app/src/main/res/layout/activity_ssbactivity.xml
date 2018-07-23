@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SSB.SSBactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="131dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ssb_logo" />
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/ssb_about"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="10dp"
+                android:background="#FF9800"
+                android:text="About"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/ssb_history"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="10dp"
+                android:background="#FF9800"
+                android:text="History"
+                android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/ssb_ranks"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="#f44336"
+                android:text="Ranks"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ssb_martyrs"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:background="#2196F3"
+                android:text="Martyrs"
+                android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/ssb_award"
+                android:layout_width="160dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="10dp"
+                android:background="#2196F3"
+                android:text="Gallantry Award Winners"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

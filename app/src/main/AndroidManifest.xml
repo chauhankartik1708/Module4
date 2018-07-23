@@ -111,6 +111,15 @@
         <activity
             android:name=".ITBP.ITBPhistoryActivity"
             android:label="@string/title_activity_itbphistory"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SSB.SSBactivity" />
+        <activity
+            android:name=".SSB.SSBaboutActivity"
+            android:label="@string/title_activity_ssbabout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SSB.SSBhistoryActivity"
+            android:label="@string/title_activity_ssbhistory"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
