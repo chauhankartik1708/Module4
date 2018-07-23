@@ -1,12 +1,14 @@
 package com.dzone.module4;
 
 import android.content.Intent;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
 import com.dzone.module4.BSF.BSFactivity;
+import com.dzone.module4.CISF.CISFactivity;
 import com.dzone.module4.ITBP.ITBPactivity;
 import com.dzone.module4.NDRF.NdrfActivity;
 import com.dzone.module4.NSG.NsgActivity;
@@ -76,6 +78,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, SSBactivity.class));
+            }
+        });
+
+        cisf = (ImageButton)findViewById(R.id.cisf);
+        cisf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,CISFactivity.class));
             }
         });
 
