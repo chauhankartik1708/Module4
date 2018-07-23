@@ -12,6 +12,7 @@ import com.dzone.module4.NDRF.NdrfActivity;
 import com.dzone.module4.NSG.NsgActivity;
 import com.dzone.module4.RPF.RpfActivity;
 import com.dzone.module4.SPG.SpgActivity;
+import com.dzone.module4.SSB.SSBactivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -67,6 +68,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, ITBPactivity.class));
+            }
+        });
+
+        ssb = (ImageButton)findViewById(R.id.ssb);
+        ssb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, SSBactivity.class));
             }
         });
 
