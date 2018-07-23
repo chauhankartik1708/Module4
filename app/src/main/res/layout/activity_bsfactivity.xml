@@ -25,6 +25,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
+
+            <Button
+                android:id="@+id/bsf_about"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="10dp"
+                android:background="#FF9800"
+                android:text="About"
+                android:textColor="#FFFFFF" />
+
             <Button
                 android:id="@+id/bsf_history"
                 android:layout_width="170dp"
@@ -33,6 +43,15 @@
                 android:background="#FF9800"
                 android:text="History"
                 android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
             <Button
                 android:id="@+id/bsf_ranks"
                 android:layout_width="170dp"
@@ -43,21 +62,23 @@
                 android:text="Ranks"
                 android:textColor="#FFFFFF" />
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
             <Button
+                android:layout_marginLeft="10dp"
                 android:id="@+id/bsf_martyrs"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:background="#2196F3"
                 android:text="Martyrs"
                 android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal">
             <Button
                 android:id="@+id/award"
                 android:layout_width="160dp"

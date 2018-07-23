@@ -11,12 +11,12 @@ import android.view.View;
 
 import com.dzone.module4.R;
 
-public class BSFmissionActivity extends AppCompatActivity {
+public class BSFaboutActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bsfmission);
+        setContentView(R.layout.activity_bsfabout);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
