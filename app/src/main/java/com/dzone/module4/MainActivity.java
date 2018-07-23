@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import com.dzone.module4.BSF.BSFactivity;
+import com.dzone.module4.ITBP.ITBPactivity;
 import com.dzone.module4.NDRF.NdrfActivity;
 import com.dzone.module4.NSG.NsgActivity;
 import com.dzone.module4.RPF.RpfActivity;
@@ -61,6 +62,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        itbp = (ImageButton)findViewById(R.id.itbp);
+        itbp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, ITBPactivity.class));
+            }
+        });
 
     }
 }

@@ -102,6 +102,11 @@
         <activity
             android:name=".BSF.BSFaboutActivity"
             android:label="@string/title_activity_bsfabout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ITBP.ITBPactivity" />
+        <activity
+            android:name=".ITBP.ITBPaboutActivity"
+            android:label="@string/title_activity_itbpabout"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

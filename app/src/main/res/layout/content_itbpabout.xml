@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".BSF.BSFaboutActivity"
-    tools:showIn="@layout/activity_bsfabout">
+    tools:context=".ITBP.ITBPaboutActivity"
+    tools:showIn="@layout/activity_itbpabout">
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
@@ -104,25 +104,25 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="BSF"/>
+                    android:text="ITBPF"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="1965"/>
+                    android:text="1962"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Duty Unto Death\n"/>
+                    android:text="Valour – Steadfastness and Commitment"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="257,363 Active Personnel\n"/>
+                    android:text="89,432 Active Personnel\n"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -140,7 +140,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="K.K Sharma\nDirector General, BSF\n"/>
+                    android:text="R K Pachnanda\nDirector General, ITBP\n"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -154,7 +154,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:autoLink="web"
-                    android:text="www.bsf.nic.in"/>
+                    android:text="www.itbpolice.nic.in"/>
 
             </LinearLayout>
 
