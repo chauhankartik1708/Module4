@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dzone.module4">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -94,8 +96,13 @@
             android:name=".SPG.SpgMissionActivity"
             android:label="Mission"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".RPF.RpfRankActivity"
-            android:label="Rank Structure"/>
+        <activity
+            android:name=".RPF.RpfRankActivity"
+            android:label="Rank Structure" />
+        <activity
+            android:name=".BSF.BSFaboutActivity"
+            android:label="@string/title_activity_bsfabout"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
