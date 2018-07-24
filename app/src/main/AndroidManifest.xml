@@ -129,6 +129,10 @@
         <activity
             android:name=".CISF.CISFhistoryActivity"
             android:label="@string/title_activity_cisfhistory"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ITBP.ITBPranksActivity"
+            android:label="@string/title_activity_itbpranks"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
