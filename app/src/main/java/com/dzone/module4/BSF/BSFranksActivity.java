@@ -17,9 +17,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BSFranksActivity extends AppCompatActivity {
-    private RecyclerView recyclerView1,recyclerView2,recyclerView3;
-    private bsfRankAdapter adapter1,adapter2,adapter3;
-    private List<BsfRankRecyclerItems> listItems1,listItems2,listItems3;
+    private RecyclerView recyclerView1,recyclerView2;
+    private bsfRankAdapter adapter1,adapter2;
+    private List<BsfRankRecyclerItems> listItems1,listItems2;
     private String rank1[] = {"Assistant Commandant","Deputy Commandant","Second-in-Command","Commandant","Deputy Inspector General",
             "Inspector General", "Additional Director General","Special Director General","Director General"};
 
