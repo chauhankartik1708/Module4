@@ -137,6 +137,10 @@
         <activity
             android:name=".SSB.SSBranksActivity"
             android:label="@string/title_activity_ssbranks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CISF.CISFranksActivity"
+            android:label="@string/title_activity_cisfranks"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

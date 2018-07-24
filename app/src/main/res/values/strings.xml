@@ -86,4 +86,5 @@ The motto of the Force is “Shaurya-Dridhata-Karma Nishtha” (Valour – Deter
     <string name="title_activity_cisfhistory">Central Industrial Security Force</string>
     <string name="title_activity_itbpranks">Indo-Tibetan Border Police</string>
     <string name="title_activity_ssbranks">Sashastra Seema Bal</string>
+    <string name="title_activity_cisfranks">CISFranksActivity</string>
 </resources>
