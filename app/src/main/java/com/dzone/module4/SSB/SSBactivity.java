@@ -14,7 +14,7 @@ import android.widget.Button;
 import com.dzone.module4.R;
 
 public class SSBactivity extends AppCompatActivity {
-    Button about,history,martyrs,gallantry;
+    Button about,history,martyrs,gallantry,ranks;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -73,6 +73,14 @@ public class SSBactivity extends AppCompatActivity {
 //
                     Snackbar.make(view, "You're not connected to internet. Check your internet connection !", Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
+            }
+        });
+
+        ranks = (Button)findViewById(R.id.ssb_ranks);
+        ranks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SSBactivity.this,SSBranksActivity.class));
             }
         });
     }

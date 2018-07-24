@@ -5,9 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".BSF.BSFranksActivity"
-    tools:showIn="@layout/activity_bsfranks">
-
+    tools:context=".SSB.SSBranksActivity"
+    tools:showIn="@layout/activity_ssbranks">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,7 +23,7 @@
             android:text="Gazetted Officers"/>
 
         <android.support.v7.widget.RecyclerView
-            android:id="@+id/bsf_rank_recycler1"
+            android:id="@+id/ssb_rank_recycler1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="10dp"/>
@@ -39,7 +38,7 @@
             android:text="Non Gazetted Officers"/>
 
         <android.support.v7.widget.RecyclerView
-            android:id="@+id/bsf_rank_recycler2"
+            android:id="@+id/ssb_rank_recycler2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="10dp"/>

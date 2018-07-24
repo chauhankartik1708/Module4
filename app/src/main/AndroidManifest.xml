@@ -133,6 +133,10 @@
         <activity
             android:name=".ITBP.ITBPranksActivity"
             android:label="@string/title_activity_itbpranks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SSB.SSBranksActivity"
+            android:label="@string/title_activity_ssbranks"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
