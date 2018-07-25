@@ -5,6 +5,7 @@ import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.dzone.module4.BSF.BSFactivity;
@@ -14,6 +15,7 @@ import com.dzone.module4.ITBP.ITBPactivity;
 import com.dzone.module4.NDRF.NdrfActivity;
 import com.dzone.module4.NSG.NsgActivity;
 import com.dzone.module4.RPF.RpfActivity;
+import com.dzone.module4.SFF.SFFactivity;
 import com.dzone.module4.SPG.SpgActivity;
 import com.dzone.module4.SSB.SSBactivity;
 
@@ -95,6 +97,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, CRPFactivity.class));
+            }
+        });
+
+        sff = (ImageButton)findViewById(R.id.sff);
+        sff.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, SFFactivity.class));
             }
         });
 
