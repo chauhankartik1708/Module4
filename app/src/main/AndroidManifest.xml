@@ -141,6 +141,11 @@
         <activity
             android:name=".CISF.CISFranksActivity"
             android:label="@string/title_activity_cisfranks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CRPF.CRPFactivity" />
+        <activity
+            android:name=".CRPF.CRPFaboutActivity"
+            android:label="@string/title_activity_crpfabout"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
