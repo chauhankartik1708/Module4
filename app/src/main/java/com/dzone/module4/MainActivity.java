@@ -9,6 +9,7 @@ import android.widget.ImageButton;
 
 import com.dzone.module4.BSF.BSFactivity;
 import com.dzone.module4.CISF.CISFactivity;
+import com.dzone.module4.CRPF.CRPFactivity;
 import com.dzone.module4.ITBP.ITBPactivity;
 import com.dzone.module4.NDRF.NdrfActivity;
 import com.dzone.module4.NSG.NsgActivity;
@@ -18,7 +19,7 @@ import com.dzone.module4.SSB.SSBactivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageButton ar,bsf,cisf,crsf,icg,itbp,ndrf,nsg,rpf,sff,spg,ssb;
+    ImageButton ar,bsf,cisf,crpf,icg,itbp,ndrf,nsg,rpf,sff,spg,ssb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,6 +87,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this,CISFactivity.class));
+            }
+        });
+
+        crpf = (ImageButton)findViewById(R.id.crpf);
+        crpf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, CRPFactivity.class));
             }
         });
 
