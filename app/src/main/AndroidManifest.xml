@@ -154,6 +154,27 @@
         <activity
             android:name=".CRPF.CRPFranksActivity"
             android:label="@string/title_activity_crpfranks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SFF.SFFactivity" />
+        <activity
+            android:name=".SFF.SFFaboutActivity"
+            android:label="@string/title_activity_sffabout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SFF.SFFhistoryActivity"
+            android:label="@string/title_activity_sffhistory"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SFF.SFFformationActivity"
+            android:label="@string/title_activity_sffformation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SFF.SFFoperationsActivity"
+            android:label="@string/title_activity_sffoperations"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SFF.SFFequipmentsActivity"
+            android:label="@string/title_activity_sffequipments"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
