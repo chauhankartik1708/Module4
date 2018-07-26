@@ -1,7 +1,11 @@
 package com.dzone.module4.RPF;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -37,9 +41,21 @@ public class RpfActivity extends AppCompatActivity {
         martyr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse("http://www.indianrailways.gov.in/railwayboard/uploads/directorate/security/downloads/2016/Martyrs_list.pdf"));
-                startActivity(i);
+
+
+                ConnectivityManager connectivityManager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
+                if(connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
+                        connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED) {
+                    //we are connected to a network
+
+                    Intent i = new Intent(Intent.ACTION_VIEW);
+                    i.setData(Uri.parse("http://www.indianrailways.gov.in/railwayboard/uploads/directorate/security/downloads/2016/Martyrs_list.pdf"));
+                    startActivity(i);
+                }
+                else
+//
+                    Snackbar.make(view, "You're not connected to internet. Check your internet connection !", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
             }
         });
 
@@ -47,9 +63,21 @@ public class RpfActivity extends AppCompatActivity {
         award.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse("http://www.indianrailways.gov.in/railwayboard/uploads/directorate/security/downloads/2017/Gallantary%20Medal.pdf"));
-                startActivity(i);
+
+
+                ConnectivityManager connectivityManager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
+                if(connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
+                        connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED) {
+                    //we are connected to a network
+
+                    Intent i = new Intent(Intent.ACTION_VIEW);
+                    i.setData(Uri.parse("http://www.indianrailways.gov.in/railwayboard/uploads/directorate/security/downloads/2017/Gallantary%20Medal.pdf"));
+                    startActivity(i);
+                }
+                else
+//
+                    Snackbar.make(view, "You're not connected to internet. Check your internet connection !", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
             }
         });
 
