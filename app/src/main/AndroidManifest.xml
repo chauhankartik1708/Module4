@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:label="Other Forces">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -175,6 +177,35 @@
         <activity
             android:name=".SFF.SFFequipmentsActivity"
             android:label="@string/title_activity_sffequipments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AR.ArActivity"
+            android:label="Assam Rifles" />
+        <activity
+            android:name=".ICG.IcgActivity"
+            android:label="Indian Coast Guard" />
+        <activity
+            android:name=".AR.ArAboutActivity"
+            android:label="About"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".AR.ArHistoryActivity"
+            android:label="History"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".AR.ArOrganStructActivity"
+            android:label="Organisation Structure"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".AR.ArRankActivity"
+            android:label="Rank Structure"/>
+        <activity android:name=".ICG.IcgAboutActivity"
+            android:label="About"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".ICG.IcgHistoryActivity"
+            android:label="History"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".ICG.IcgRankActivity"
+            android:label="Rank Structure"/>
+        <activity android:name=".ICG.IcgMissionActivity"
+            android:label="Mission"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

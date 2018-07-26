@@ -45,7 +45,7 @@ public class SSBactivity extends AppCompatActivity {
                         connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED) {
                     //we are connected to a network
 
-                    Uri uri = Uri.parse("http://www.ssb.nic.in/index1.aspx?langid=1&lev=2&lsid=296&pid=56&Cid=0&lid=285"); // missing 'http://' will cause crashed
+                    Uri uri = Uri.parse("http://www.seema.nic.in/index1.aspx?langid=1&lev=2&lsid=296&pid=56&Cid=0&lid=285"); // missing 'http://' will cause crashed
                     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                     startActivity(intent);
                 }
@@ -65,7 +65,7 @@ public class SSBactivity extends AppCompatActivity {
                         connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED) {
                     //we are connected to a network
 
-                    Uri uri = Uri.parse("http://www.ssb.nic.in/WriteReadData/LINKS/c3d2e7da-98da-4750-a071-a294b092a9ef.pdf"); // missing 'http://' will cause crashed
+                    Uri uri = Uri.parse("http://www.seema.nic.in/WriteReadData/LINKS/c3d2e7da-98da-4750-a071-a294b092a9ef.pdf"); // missing 'http://' will cause crashed
                     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                     startActivity(intent);
                 }

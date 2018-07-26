@@ -1,112 +1,65 @@
 package com.dzone.module4;
 
+import android.content.Context;
 import android.content.Intent;
-import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
 
-import com.dzone.module4.BSF.BSFactivity;
-import com.dzone.module4.CISF.CISFactivity;
 import com.dzone.module4.CRPF.CRPFactivity;
-import com.dzone.module4.ITBP.ITBPactivity;
-import com.dzone.module4.NDRF.NdrfActivity;
-import com.dzone.module4.NSG.NsgActivity;
-import com.dzone.module4.RPF.RpfActivity;
 import com.dzone.module4.SFF.SFFactivity;
-import com.dzone.module4.SPG.SpgActivity;
-import com.dzone.module4.SSB.SSBactivity;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageButton ar,bsf,cisf,crpf,icg,itbp,ndrf,nsg,rpf,sff,spg,ssb;
+    private RecyclerView recyclerView;
+    private MainAdapter adapter;
+    private List<MainRecyclerItems> listItems;
+    private String name[] = {"Indian Coast Guard",
+        "Assam Rifles",
+        "Special Frontier Force",
+        "Central Reserve Police Force",
+        "Border Security Force",
+        "Indo-Tibetan Border Police",
+        "Sashastra Seema Bal",
+        "Central Industrial Security Force",
+        "National Security Guard",
+        "Special Protection Group",
+        "Railway Protection Force",
+        "National Disaster Response Force"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        nsg = (ImageButton)findViewById(R.id.nsg);
-        nsg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,NsgActivity.class));
-            }
-        });
-
-        spg = (ImageButton)findViewById(R.id.spg);
-        spg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,SpgActivity.class));
-            }
-        });
-
-        rpf = (ImageButton)findViewById(R.id.rpf);
-        rpf.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,RpfActivity.class));
-            }
-        });
-
-        ndrf = (ImageButton)findViewById(R.id.ndrf);
-        ndrf.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,NdrfActivity.class));
-            }
-        });
-
-        bsf = (ImageButton)findViewById(R.id.bsf);
-        bsf.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, BSFactivity.class));
-            }
-        });
-
-        itbp = (ImageButton)findViewById(R.id.itbp);
-        itbp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, ITBPactivity.class));
-            }
-        });
-
-        ssb = (ImageButton)findViewById(R.id.ssb);
-        ssb.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, SSBactivity.class));
-            }
-        });
-
-        cisf = (ImageButton)findViewById(R.id.cisf);
-        cisf.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,CISFactivity.class));
-            }
-        });
-
-        crpf = (ImageButton)findViewById(R.id.crpf);
-        crpf.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, CRPFactivity.class));
-            }
-        });
-
-        sff = (ImageButton)findViewById(R.id.sff);
-        sff.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, SFFactivity.class));
-            }
-        });
+        recyclerView= (RecyclerView)findViewById(R.id.other_menu_recycler);
+        listItems = new ArrayList<>();
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        int[] pic = new int[]{
+                R.drawable.icg,
+                R.drawable.ar,
+                R.drawable.sff,
+                R.drawable.crpf,
+                R.drawable.bsf,
+                R.drawable.indo,
+                R.drawable.seema,
+                R.drawable.cisf,
+                R.drawable.nsg,
+                R.drawable.spg,
+                R.drawable.rpf,
+                R.drawable.ndrf
+        };
+        for(int i=0;i<12;i++)
+        {
+            listItems.add(new MainRecyclerItems(pic[i],name[i]));
+        }
+        adapter = new MainAdapter(listItems,this);
+        recyclerView.setAdapter(adapter);
 
     }
 }

@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".SPG.SpgAboutActivity"
-    tools:showIn="@layout/activity_spg_about">
+    tools:context=".AR.ArAboutActivity"
+    tools:showIn="@layout/activity_ar_about">
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
@@ -62,13 +62,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:textColor="#000000"
-                    android:text="Annual Budget :"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:textColor="#000000"
                     android:text="Operations\nJurisdiction :"/>
 
                 <TextView
@@ -90,6 +83,13 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:textColor="#000000"
+                    android:text="Minister\nResponsible"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#000000"
                     android:text="Website :"/>
 
             </LinearLayout>
@@ -104,31 +104,25 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="SPG"/>
+                    android:text="AR"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="2nd June,1988"/>
+                    android:text="1835"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Bravery, Dedication, Security"/>
+                    android:text="Sentinels of the North East"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="3000 active personnel"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="385 crore (2018-19 est.)"/>
+                    android:text="63,747 Active Personnel"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -140,21 +134,27 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="New Delhi, India"/>
+                    android:text="Shillong, India"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Arun Kumar Sinha\nIPS, Secretary (Security)"/>
+                    android:text="Lt Gen Sukhdeep Sangwan SM\nDirector General, Assam Rifles"/>
 
                 <TextView
-                    android:id="@+id/ndrg_web_link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Rajnath Singh\nUnion Home Minister"/>
+
+                <TextView
+                    android:id="@+id/ar_web_link"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:autoLink="web"
-                    android:text="spg.nic.in"/>
+                    android:text="assamrifles.gov.in"/>
 
             </LinearLayout>
 
