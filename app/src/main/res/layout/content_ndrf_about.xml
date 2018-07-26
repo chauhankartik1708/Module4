@@ -136,7 +136,7 @@
                     android:text="Sanjay Kumar\nIPS, Director General"/>
 
                 <TextView
-                    android:id="@+id/ndrg_web_link"
+                    android:id="@+id/ndrf_web_link"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"

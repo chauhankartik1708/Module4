@@ -18,7 +18,7 @@ public class NdrfAboutActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ndrf_about);
 
-        link = (TextView)findViewById(R.id.ar_web_link);
+        link = (TextView)findViewById(R.id.ndrf_web_link);
         link.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
