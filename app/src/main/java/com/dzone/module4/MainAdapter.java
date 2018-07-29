@@ -29,9 +29,9 @@ import java.util.List;
 public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder>{
 
     private List<MainRecyclerItems> listItems;
-    private Context mContext;
+    private Others mContext;
 
-    public MainAdapter(List<MainRecyclerItems> listItems, Context mContext) {
+    public MainAdapter(List<MainRecyclerItems> listItems, Others mContext) {
         this.listItems = listItems;
         this.mContext = mContext;
     }

@@ -12,15 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:label="Other Forces">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".NSG.NsgActivity"
             android:label="National Security Guard" />
         <activity
@@ -187,26 +178,43 @@
         <activity
             android:name=".AR.ArAboutActivity"
             android:label="About"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".AR.ArHistoryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AR.ArHistoryActivity"
             android:label="History"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".AR.ArOrganStructActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AR.ArOrganStructActivity"
             android:label="Organisation Structure"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".AR.ArRankActivity"
-            android:label="Rank Structure"/>
-        <activity android:name=".ICG.IcgAboutActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AR.ArRankActivity"
+            android:label="Rank Structure" />
+        <activity
+            android:name=".ICG.IcgAboutActivity"
             android:label="About"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".ICG.IcgHistoryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ICG.IcgHistoryActivity"
             android:label="History"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".ICG.IcgRankActivity"
-            android:label="Rank Structure"/>
-        <activity android:name=".ICG.IcgMissionActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ICG.IcgRankActivity"
+            android:label="Rank Structure" />
+        <activity
+            android:name=".ICG.IcgMissionActivity"
             android:label="Mission"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TabbedActivity"
+            android:label="Indian Defense Forces"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
