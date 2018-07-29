@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Module4</string>
+    <string name="app_name">Indian Defense Forces</string>
     <string name="nsg_mission">The National Security Guard (NSG) is an Indian special forces unit under the Ministry of Home Affairs (MHA). It was raised in 1984, following Operation Blue Star and the assassination of Indira Gandhi (for combating terrorist activities with a view to protect states against internal disturbances).
         \n\nNSG is under the authority of Ministry of Home Affairs. However it is not categorised under the uniform nomenclature of Central Armed Police Forces. It has a special forces mandate, and its core operational capability is provided by the Special Action Group (SAG) which is drawn from the Indian Army. The Special Rangers Group (SRG), the police component of NSG, which also handles VIP security, is composed of personnel on deputation from other Central Armed Police Forces and State Police Forces.
 \n\nThe NSG personnel are often referred to in the media as Black Cats because of the black outfit and black cat insignia worn on their uniform.
@@ -174,5 +174,10 @@ The motto of the Force is “Shaurya-Dridhata-Karma Nishtha” (Valour – Deter
 \n* National Maritime Search and Rescue Coordinating Authority (NMSARCA) – The Director-General of the Indian Coast Guard is the NMSARCA for executing / coordinating search and rescue (SAR) missions
 \n* Lead Intelligence Agency (LIA) – For coastal and sea borders
 \n* Coastal Security – The Director-General of the Indian Coast Guard is the commander of coastal command and is responsible for overall coordination between central and state agencies in all matters relating to coastal security.\n\n</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 
 </resources>
