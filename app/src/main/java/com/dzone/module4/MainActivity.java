@@ -60,9 +60,13 @@ public class MainActivity extends AppCompatActivity
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
                 break;
 
-            //case R.id.about_us:
-                //getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AboutUsFragment()).commit();
-                //break;
+            case R.id.contact_us:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ContactUsFragment()).commit();
+                break;
+
+            case R.id.about_us:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AboutUsFragment()).commit();
+                break;
 
             case R.id.share:
                 Intent share = new Intent(Intent.ACTION_SEND);
