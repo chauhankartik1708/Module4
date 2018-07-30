@@ -5,7 +5,7 @@
     android:id="@+id/others"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TabbedActivity$PlaceholderFragment">
+    tools:context=".HomeFragment$PlaceholderFragment">
 
     <ScrollView
         android:layout_gravity="center_horizontal"
